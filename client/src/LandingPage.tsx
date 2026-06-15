@@ -66,7 +66,7 @@ interface CustomResponse {
   };
 }
 
-const SERVER_URL = "http://localhost:3000";
+const SERVER_URL = "https://zero-knowledge-password-manager-ser.vercel.app";
 
 async function derivePassword(
   masterKey: string,
